@@ -3,6 +3,15 @@
 
 
 /* Gallery Stying */
+figure.item img {
+  border-radius: 5px;
+
+}
+.gallery .control-button img {
+  width:175px;
+  height: 175px;
+  margin: 10px;
+}
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
@@ -27,13 +36,14 @@
 }
 .gallery .controls {
   position: absolute;
-  bottom: -120px;
+  bottom: -180px;
   width: 100%;
   text-align: center;
 }
 
 .gallery .controls img {
-  border: 5px solid #000;
+  border-radius: 5px;
+  border: 5px solid #666;
 }
 
 .gallery .control-button {
