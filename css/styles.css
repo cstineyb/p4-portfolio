@@ -1,6 +1,17 @@
 /* Your Website Styles */
 
+header {
+  background: #333;
+  max-width: 100%;
+  max-height:200px;
+  text-align:center;
+}
 
+img {
+  display:inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+}
 
 /* Gallery Stying */
 figure.item img {
@@ -33,7 +44,7 @@ figure.item img {
   height: 850px;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
+  background: #333;
 }
 .gallery .controls {
   position: absolute;
