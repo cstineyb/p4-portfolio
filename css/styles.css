@@ -60,7 +60,13 @@ a {
   color:grey;
 
 }
-
+ p{
+  font-size:.5em;
+  color:#000;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom:.25%;
+ }
 
 /* Gallery Stying */
 figure.item img {
@@ -144,6 +150,28 @@ and (max-device-width : 480px) {
     margin-bottom:0;
     position:relative;
   }
+
+  p{
+  font-size:.3em;
+  color:#fff;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom
+}
+
+nav#main {
+  height: 30px;
+}
+#main li {
+  color:#000;
+  font-family: 'Ubuntu' sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.5em;
+  display: inline;
+  margin: 0% 3%;
+}
+
   body {
     background: url("../img/hexabump.png") repeat #000;
 
@@ -168,6 +196,14 @@ and (max-device-width : 1024px) {
     margin-bottom:0;
     position:relative;
   }
+
+  p{
+  font-size:.35em;
+  color:#fff;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom:.25%;
+ }
   body {
     background: url("../img/hexabump.png") repeat #000;
 
