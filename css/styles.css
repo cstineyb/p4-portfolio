@@ -1,4 +1,6 @@
 /* Your Website Styles */
+body {
+}
 
 header {
   background: red;
@@ -21,14 +23,16 @@ nav#main {
 
 #main ul {
   color:#fff;
+  margin-top: 0;
   } 
 
 #main li {
+  color:#fff;
   font-family: 'Ubuntu' sans-serif;
   font-size: 1.5em;
   line-height: 2em;
   display: inline;
-  margin: 10px;
+  margin: 0% 1%;
 }
 ul>:first-child {
     visibility: hidden;
@@ -39,12 +43,16 @@ a {
   text-decoration: none;
 }
 
+div.contact {
+  background: green;
+}
+
 .contact a {
   background: #000;
   border-radius: 50%;
   color:green;
-  font-size: 72px;
-  transition: 1s;
+  font-size: 80px;
+  transition: 1.5s ease-in;
 }
 
 .contact a:hover {
@@ -52,6 +60,7 @@ a {
   font-size: yellow;
 
 }
+
 
 /* Gallery Stying */
 figure.item img {
