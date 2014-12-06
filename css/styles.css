@@ -30,13 +30,26 @@ nav#main {
   display: inline;
   margin: 10px;
 }
-
+ul>:first-child {
+    visibility: hidden;
+}
 
 a {
  
   text-decoration: none;
 }
 
+.contact a {
+  color:green;
+  font-size: 72px;
+  transition: 1s;
+}
+
+.contact a:hover {
+  color:yellow;
+  font-size: yellow;
+
+}
 
 /* Gallery Stying */
 figure.item img {
