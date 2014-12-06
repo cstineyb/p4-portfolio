@@ -43,8 +43,10 @@ a {
   text-decoration: none;
 }
 
-div.contact {
+.contact {
   background: green;
+  padding: 1%;
+  width: 100%;
 }
 
 .contact a {
@@ -100,9 +102,9 @@ figure.item img {
 
 }
 .gallery .controls {
+  background: pink;
   margin-bottom: 1.5%;
-  margin-top: 1.5%;
-  padding: 1.5%;
+  padding-top: 1.5%;
   position: absolute;
   width: 100%;
   text-align: center;
