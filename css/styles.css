@@ -37,6 +37,7 @@ a {
   text-decoration: none;
 }
 
+
 /* Gallery Stying */
 figure.item img {
   border-radius: 5px;
@@ -65,14 +66,18 @@ figure.item img {
   width:100%;
 }
 .gallery .item {
-  height: 850px;
+  max-height: 850px;
   overflow: hidden;
   text-align: center;
   background: blue;
   margin-top: 1.5%;
   padding-top: 1.5%;
+
 }
 .gallery .controls {
+  margin-bottom: 1.5%;
+  margin-top: 1.5%;
+  padding: 1.5%;
   position: absolute;
   width: 100%;
   text-align: center;
