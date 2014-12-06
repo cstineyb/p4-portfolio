@@ -1,7 +1,7 @@
 /* Your Website Styles */
 
 header {
-  background: #333;
+  background: red;
   max-width: 100%;
   max-height:200px;
   text-align:center;
@@ -11,6 +11,30 @@ img {
   display:inline-block;
   margin: 0 auto;
   max-width: 100%;
+}
+nav#main {
+  background: #2F045D;
+  height: 132px;
+  max-width: 100%;
+  max-height: 150px;
+}
+
+#main ul {
+  color:#fff;
+  } 
+
+#main li {
+  font-family: 'Ubuntu' sans-serif;
+  font-size: 1.5em;
+  line-height: 2em;
+  display: inline;
+  margin: 10px;
+}
+
+
+a {
+ 
+  text-decoration: none;
 }
 
 /* Gallery Stying */
@@ -44,7 +68,9 @@ figure.item img {
   height: 850px;
   overflow: hidden;
   text-align: center;
-  background: #333;
+  background: blue;
+  margin-top: 1.5%;
+  padding-top: 1.5%;
 }
 .gallery .controls {
   position: absolute;
