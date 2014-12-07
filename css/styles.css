@@ -41,9 +41,7 @@ a {
  
   text-decoration: none;
 }
-a:hover {
-  font-size: 1.05em;
-}
+
 
 .contact {
   background: url("../img/hexabump.png") repeat #000;
