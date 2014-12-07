@@ -41,6 +41,9 @@ a {
  
   text-decoration: none;
 }
+a:hover {
+  font-size: 1.05em;
+}
 
 .contact {
   background: url("../img/hexabump.png") repeat #000;
@@ -67,6 +70,9 @@ a {
   text-align: center;
   padding-bottom:.25%;
  }
+ a:hover {
+  font-size: 1.05em;
+}
 
 /* Gallery Stying */
 figure.item img {
